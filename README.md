@@ -11,6 +11,12 @@
     </div>
 </div>
 
+### Turma:
+- P3 de informatica
+
+### Professor:
+- Roger Sarmento
+
 # Listas: 
 <kbd>[<img title="1" alt="1" src="https://raw.githubusercontent.com/gist/Elbston/2d9c8b9b44e4eca7a5d00070e8c7a9d1/raw/66ca9e51f56e37dc140575375060bc3535fb938f/1.svg" width="22">](Lista01)</kbd>
 
