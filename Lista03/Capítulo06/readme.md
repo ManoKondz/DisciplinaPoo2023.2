@@ -1,3 +1,4 @@
+# Capítulo 6
 | Questão | Enunciado |
 | ------- | --------- |
 |  02     | Faça um programa que preencha um vetor com sete números inteiros, calcule e mostre:  Os números múltiplos de 2, os números múltiplos de 3 e os números múltiplos de 2 e de 3. |
