@@ -29,7 +29,7 @@
 <h1>Repositórios:</h1>
 
 <kbd>[<img title="Repositório do Enzo" alt="Link para Repositório do Enzo" src="https://cdn-icons-png.flaticon.com/512/3097/3097035.png" width="30">](https://github.com/ManoKondz/DisciplinaPoo2023.2)</kbd>
-<kbd>[<img title="Repositório do Elbston" alt="Link para Repositório do Elbston" src="https://cdn-icons-png.flaticon.com/256/3097/3097023.png" width="30">](https://github.com/ManoKondz/DisciplinaPoo2023.2/tree/e90391b652c28ad5b95080177291e9b34c3f6d2a/Lista01)</kbd>
+<kbd>[<img title="Repositório do Elbston" alt="Link para Repositório do Elbston" src="https://cdn-icons-png.flaticon.com/256/3097/3097023.png" width="30">](https://github.com/Elbston/Diciplina-Poo-2023.2)</kbd>
 
 <h2>Listas:</h2>
 
