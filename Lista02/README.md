@@ -15,4 +15,4 @@ Este diretório contém 25 questões resolvidas para cada um dos tópicos, total
 
 ## Questões Propostas
 
-Além das questões resolvidas, também temos 5 questões propostas para cada um dos tópicos, totalizando 10 questões. Elas estão localizadas na pasta `Questões Propostas` de cada capítulo, também dentro das pastas `br.edu.principal`
+Além das questões resolvidas, também temos 5 questões propostas para cada um dos tópicos, totalizando 10 questões. Elas estão localizadas na pasta `Questões Propostas` de cada capítulo, também dentro das pastas `br.edu.principal`.
