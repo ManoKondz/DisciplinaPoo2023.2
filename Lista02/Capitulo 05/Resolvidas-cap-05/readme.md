@@ -1,4 +1,4 @@
-# CAP 05
+# Capítulo 5
 | Resolvidos | Enunciados|
 |------------|-----------|
 |Q01R: |Um funcionário de uma empresa recebe, anualmente, aumento salarial. Sabe-se que:
