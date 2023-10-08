@@ -9,11 +9,11 @@
 |Q02R: |Faça um programa que leia um valor N inteiro e positivo. Calcule e mostre o valor de E, conforme a fórmula a seguir:|
 |E=|  1 + 1/1! + 1/2! + 1/3! ... + 1/N!|  
 |Q03R: |Faça um programa que leia um número N que indica quantos valores inteiros e positivos devem ser lidos a seguir. Para cada número lido, mostre uma tabela contendo o valor lido e o fatorial desse valor.|
-|Q04R: |Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. Foram obtidos os seguintes dados:
-|a)| código da cidade;
-|b)| número de veículos de passeio;
-|c)| número de acidentes de trânsito com vítimas.
-||Deseja-se saber:
+|Q04R: |Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. Foram obtidos os seguintes dados:|
+|1.| código da cidade;|
+|2.| número de veículos de passeio;|
+|3.| número de acidentes de trânsito com vítimas.|
+||Deseja-se saber:|
 |a)| qual é o maior e qual é o menor índice de acidentes de trânsito e a que cidades pertencem;
 |b)| qual é a média de veículos nas cinco cidades juntas;
 |c)| qual é a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.|
@@ -67,13 +67,22 @@
 |d)|a porcentagem de jogadores com mais de 80 kg entre todos os jogadores do campeonato.|
 |Q11R: |Faça um programa que receba um número inteiro maior que 1, verifique se o número fornecido é primo ou não e mostre uma mensagem de número primo ou de número não primo.
 ||Um número é primo quando é divisível apenas por 1 e por ele mesmo.|
-|Q12R: |Em uma fábrica trabalham homens e mulheres divididos em três classes:
-|classe 1|trabalhadores que fazem até 30 peças por mês.
-|classe 2|trabalhadores que fazem de 31 a 50 peças por mês.
-|classe 3|trabalhadores que fazem mais de 50 peças por mês.
-|A classe 1| recebe salário mínimo. 
-|A classe 2 |recebe salário mínimo mais 3% deste salário por peça, acima das 30 peças iniciais. 
-|A classe 3| recebe salário mínimo mais 5% desse salário por peça, acima das 30 peças iniciais.
+|Q12R: |Em uma fábrica trabalham homens e mulheres divididos em três classes:|
+
+|Classes|O que são|
+|-------|---------|
+|classe 1|trabalhadores que fazem até 30 peças por mês.|
+|classe 2|trabalhadores que fazem de 31 a 50 peças por mês.|
+|classe 3|trabalhadores que fazem mais de 50 peças por mês.|
+
+|Classes|Quanto recebem|
+|-------|--------------|
+|A classe 1| recebe salário mínimo. |
+|A classe 2 |recebe salário mínimo mais 3% deste salário por peça, acima das 30 peças iniciais.|
+|A classe 3| recebe salário mínimo mais 5% desse salário por peça, acima das 30 peças iniciais.|
+
+|Questão|Enunciado|
+|-------|---------|
 ||Faça um programa que receba o número do operário, o número de peças fabricadas no mês, o sexo do operário, e que também calcule e mostre:
 |a)|O número do operário e seu salário;
 |b)|o total da folha de pagamento da fábrica;
@@ -177,36 +186,52 @@ O programa também deve calcular e mostrar:
 |5.| o número de mulheres com idade inferior a 21 anos e com experiência no serviço;|
 |6.| a menor idade entre as mulheres que já têm experiência no serviço.|
 |Q23R: |Faça um programa que receba o valor do salário mínimo, uma lista contendo a quantidade de quilowatts gasta por consumidor e o tipo de consumidor (1 — residencial; 2 — comercial; ou 3 — industrial) e que calcule e mostre:
-■■ o valor de cada quilowatt, sabendo que o quilowatt custa um oitavo do salário mínimo;
-■■ o valor a ser pago por consumidor (conta final mais acréscimo). O acréscimo encontra-se na tabela a seguir:|
+|1.| o valor de cada quilowatt, sabendo que o quilowatt custa um oitavo do salário mínimo;
+|2.| o valor a ser pago por consumidor (conta final mais acréscimo). O acréscimo encontra-se na tabela a seguir:|
+
 | Tipo | % de Acréscimo sobre o Valor Gasto |
+|------|------------------------------------|
 | 1    | 5                                 |
 | 2    | 10                                |
 | 3    | 15                                |
-|o faturamento geral da empresa;
-a quantidade de consumidores que pagam entre R$ 500,00 e R$ 1.000,00.
-Termine a entrada de dados com quantidade de quilowats igual a zero.|
-|Q24R: |Faça um programa que apresente o menu de opções a seguir, permita ao usuário escolher a opção
 
-desejada, receba os dados necessários para executar a operação e mostre o resultado. Verifique a possibilidade de opção inválida e não se preocupe com restrições do tipo salário inválido.
-Menu de opções:
-1. Imposto
-2. Novo salário
-3. Classificação
-4. Finalizar o programa
-Digite a opção desejada.
-Na opção 1: receber o salário de um funcionário, calcular e mostrar o valor do imposto usando as regras
-a seguir.|| Salários                | % do Imposto |
+|Questão|
+|-------|
+|o faturamento geral da empresa, a quantidade de consumidores que pagam entre R$ 500,00 e R$ 1.000,00.|
+|Termine a entrada de dados com quantidade de quilowats igual a zero.|
+
+| Resolvidos | Enunciados|
+|------------|-----------|
+|Q24R: |Faça um programa que apresente o menu de opções a seguir, permita ao usuário escolher a opção desejada, receba os dados necessários para executar a operação e mostre o resultado. Verifique a possibilidade de opção inválida e não se preocupe com restrições do tipo salário inválido.
+Menu de opções:|
+|1.| Imposto|
+|2.| Novo salário|
+|3.| Classificação|
+|4.| Finalizar o programa|
+|Digite a opção desejada.|
+|Na opção 1: receber o salário de um funcionário, calcular e mostrar o valor do imposto usando as regras
+a seguir.|
+
+| Salários                | % do Imposto |
+|-------------------------|--------------|
 | Menor que R$ 500,00      | 5            |
 | De R$ 500,00 a R$ 850,00 | 10           |
 | Acima de R$ 850,00       | 15           |
+
+|O que é pedido|
+|--------------|
 |Na opção 2: receber o salário de um funcionário, calcular e mostrar o valor do novo salário usando as
 regras a seguir.|
+
 | Salários                                     | Aumento  |
+|----------------------------------------------|----------|
 | Maiores que R$ 1.500,00                      | R$ 25,00 |
 | De R$ 750,00 (inclusive) a R$ 1.500,00 (inclusive) | R$ 50,00 |
 | De R$ 450,00 (inclusive) a R$ 750,00         | R$ 75,00 |
 | Menores que R$ 450,00                        | R$ 100,00|
+
+|O que é pedido|
+|--------------|
 |Na opção 3: receber o salário de um funcionário e mostrar sua classificação usando esta tabela:|
 
 | Salários               | Classificação    |
