@@ -242,14 +242,18 @@ regras a seguir.|
 | Resolvidos | Enunciados|
 |------------|-----------|
 |Q25R: |Faça um programa que receba os dados a seguir de vários produtos: preço unitário, país de origem
-(1 – Estados Unidos; 2 — México; e 3 — outros), meio de transporte (T — terrestre; F — fluvial; e A— aéreo), carga perigosa (S — sim; N — não), finalize a entrada de dados com um preço inválido, ou seja, menor ou igual a zero. O programa deve calcular e mostrar os itens a seguir.
+|Regra|(1 – Estados Unidos; 2 — México; e 3 — outros), meio de transporte (T — terrestre; F — fluvial; e A— aéreo), carga perigosa (S — sim; N — não), finalize a entrada de dados com um preço inválido, ou seja, menor ou igual a zero. O programa deve calcular e mostrar os itens a seguir.
 O valor do imposto, usando a tabela a seguir.|
 
 | Preço Unitário     | Percentual de Imposto sobre o Preço Unitário |
 |-------------------|-----------------------------------------------|
 | Até R$ 100,00      | 5%                                            |
 | Maior que R$ 100,00| 10%                                           |
+
+|O que é pedido|
+|--------------|
 |O valor do transporte usando a tabela a seguir.|
+
 | Carga Perigosa | País de Origem | Valor do Transporte |
 |----------------|----------------|---------------------|
 | S              | 1              | R$ 50,00            |
@@ -258,8 +262,10 @@ O valor do imposto, usando a tabela a seguir.|
 | N              | 1              | R$ 12,00            |
 | N              | 2              | R$ 21,00            |
 | N              | 3              | R$ 60,00            |
-|O valor do seguro, usando a regra a seguir.
-Os produtos que vêm do México e os produtos que utilizam transporte aéreo pagam metade do valor
-do seu preço unitário como seguro.
-O preço final, ou seja, preço unitário mais imposto mais valor do transporte mais valor do seguro.
-O total dos impostos.|
+
+|O que é pedido|
+|--------------|
+|O valor do seguro, usando a regra a seguir.|
+|Os produtos que vêm do México e os produtos que utilizam transporte aéreo pagam metade do valor do seu preço unitário como seguro.|
+|O preço final, ou seja, preço unitário mais imposto mais valor do transporte mais valor do seguro.|
+|O total dos impostos.|
