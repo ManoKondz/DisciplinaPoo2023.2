@@ -7,7 +7,7 @@
 |c)| A partir de 2007 (inclusive), os aumentos salariais sempre corresponderam ao dobro do percentual do ano anterior.
 ||Faça um programa que determine o salário atual desse funcionário.|
 |Q02R: |Faça um programa que leia um valor N inteiro e positivo. Calcule e mostre o valor de E, conforme a fórmula a seguir:|
-||E = 1 + 1/1! + 1/2! + 1/3! ... + 1/N!|  
+|E=|  1 + 1/1! + 1/2! + 1/3! ... + 1/N!|  
 |Q03R: |Faça um programa que leia um número N que indica quantos valores inteiros e positivos devem ser lidos a seguir. Para cada número lido, mostre uma tabela contendo o valor lido e o fatorial desse valor.|
 |Q04R: |Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. Foram obtidos os seguintes dados:
 |a)| código da cidade;
@@ -18,7 +18,7 @@
 |b)| qual é a média de veículos nas cinco cidades juntas;
 |c)| qual é a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.|
 |Q05R: |Faça um programa que leia o número de termos e um valor positivo para X. Calcule e mostre o valor da série a seguir:|
-||S = -X2/1! +X3/2! –X4/3! +X5/4! -X6/3! +X7/2! -X8/1! +X9/2! -X10/3! +X11/4! -...|
+|S=| -X2/1! +X3/2! –X4/3! +X5/4! -X6/3! +X7/2! -X8/1! +X9/2! -X10/3! +X11/4! -...|
 |Q06R: |Uma empresa possui dez funcionários com as seguintes características: código, número de horas trabalhadas no mês, turno de trabalho (M — matutino; V — vespertino; ou N — noturno), categoria (O — operário; ou G — gerente), valor da hora trabalhada. Sabendo-se que essa empresa deseja informatizar sua folha de pagamento, faça um programa que:
 |a)| Leia as informações dos funcionários, exceto o valor da hora trabalhada, não permitindo que sejam informados turnos e nem categorias inexistentes. Trabalhe sempre com a digitação de letras maiúsculas.
 |b)| Calcule o valor da hora trabalhada, conforme a tabela a seguir. Adote o valor de R$ 450,00 para o salário mínimo.|
@@ -110,8 +110,7 @@ Os juros e a quantidade de parcelas seguem a tabela:|
 
 | Resolvidos | Enunciados|
 |------------|-----------|
-|Q15R: |Faça um programa que receba o preço unitário, a refrigeração (S para os produtos que necessitem de
-refrigeração e N para os que não necessitem) e a categoria (A — alimentação; L — limpeza; e V — vestuário) de doze produtos, e que calcule e mostre:|
+|Q15R: |Faça um programa que receba o preço unitário, a refrigeração (S para os produtos que necessitem de refrigeração e N para os que não necessitem) e a categoria (A — alimentação; L — limpeza; e V — vestuário) de doze produtos, e que calcule e mostre:|
 |1.|O custo de estocagem, calculado de acordo com a tabela a seguir.|
 
 | Preço Unitário | Refrigeração | Categoria | Custo de Estocagem |
@@ -127,51 +126,56 @@ refrigeração e N para os que não necessitem) e a categoria (A — alimentaç�
 | Maior que 50  | N            | A ou V    | R$ 0,00           |
 | Maior que 50  | N            | L         | R$ 1,00           |
 
-|.O imposto calculado de acordo com as regras a seguir:
-Se o produto não preencher nenhum dos requisitos a seguir, seu imposto será de 2% sobre o preço
-unitário; caso contrário, será de 4%.
-Os requisitos são: categoria — A e refrigeração — S.
-.O preço final, ou seja, preço unitário mais custo de estocagem mais imposto.
-.A classificação calculada usando a tabela a seguir.|
+|Ordem|O que é pedido|
+|---------|----------|
+|1|.O imposto calculado de acordo com as regras a seguir:
+|Regra|Se o produto não preencher nenhum dos requisitos a seguir, seu imposto será de 2% sobre o preço unitário; caso contrário, será de 4%.|
+|2.|Os requisitos são: categoria — A e refrigeração — S.
+|a)|O preço final, ou seja, preço unitário mais custo de estocagem mais imposto.|
+|b)|A classificação calculada usando a tabela a seguir.|
+
 | Preço Final         | Classificação |
+|---------------------|---------------|
 | Até R$ 20,00        | Barato        |
 | Entre R$ 20,00 e R$ 100,00 (inclusive) | Normal |
 | Acima de R$ 100,00  | Caro          |
-|■■ A média dos valores adicionais, ou seja, a média dos custos de estocagem e dos impostos dos doze
-produtos.
-■■ O maior preço final.
-■■ O menor preço final.
-■■ O total dos impostos.
-■■ A quantidade de produtos com classificação barato.
-■■ A quantidade de produtos com classificação caro.
-■■ A quantidade de produtos com classificação normal.|
+
+|Ordem|O que é pedido|
+|---------|----------|
+|1.| A média dos valores adicionais, ou seja, a média dos custos de estocagem e dos impostos dos doze produtos.|
+|2. |O maior preço final.|
+|3. |O menor preço final.|
+|4. |O total dos impostos.|
+|5. |A quantidade de produtos com classificação barato.|
+|6. |A quantidade de produtos com classificação caro.|
+|7. |A quantidade de produtos com classificação normal.|
+
+| Resolvidos | Enunciados|
+|------------|-----------|
 |Q16R: |Faça um programa para calcular a área de um triângulo e que não permita a entrada de dados inválidos, ou seja, medidas menores ou iguais a 0.|
 |Q17R: |Faça um programa que receba o salário de um funcionário chamado Carlos. Sabe-se que outro funcionário, João, tem salário equivalente a um terço do salário de Carlos. Carlos aplicará seu salário integralmente na caderneta de poupança, que rende 2% ao mês, e João aplicará seu salário integralmente no fundo de renda fixa, que rende 5% ao mês. O programa deverá calcular e mostrar a quantidade de meses necessários para que o valor pertencente a João iguale ou ultrapasse o valor pertencente a Carlos.|
 |Q18R: |Faça um programa que leia um conjunto não determinado de valores e mostre o valor lido, seu quadrado, seu cubo e sua raiz quadrada. Finalize a entrada de dados com um valor negativo ou zero.|
-|Q19R: |Faça um programa que leia um número não determinado de pares de valores [m,n], todos inteiros e positivos, um par de cada vez, e que calcule e mostre a soma de todos os números inteiros entre m e n
-(inclusive). A digitação de pares terminará quando m for maior ou igual a n.|
-|Q20R: |Faça um programa para ler o código, o sexo (M — masculino; F — feminino) e o número de horas/aula dadas mensalmente pelos professores de uma universidade, sabendo-se que cada hora/aula vale R$ 30,00. Emita uma listagem contendo o código, o salário bruto e o salário líquido (levando em consideração os descontos explicados a seguir) de todos os professores. Mostre também a média dos salários líquidos dos professores do sexo masculino e a média dos salários líquidos dos professores do sexo feminino. Considere:
-.desconto para homens, 10%, e, para mulheres, 5%;
-.as informações terminarão quando for lido o código = 99999.|
+|Q19R: |Faça um programa que leia um número não determinado de pares de valores [m,n], todos inteiros e positivos, um par de cada vez, e que calcule e mostre a soma de todos os números inteiros entre m e n (inclusive). A digitação de pares terminará quando m for maior ou igual a n.|
+|Q20R: |Faça um programa para ler o código, o sexo (M — masculino; F — feminino) e o número de horas/aula dadas mensalmente pelos professores de uma universidade, sabendo-se que cada hora/aula vale R$ 30,00. Emita uma listagem contendo o código, o salário bruto e o salário líquido (levando em consideração os descontos explicados a seguir) de todos os professores. Mostre também a média dos salários líquidos dos professores do sexo masculino e a média dos salários líquidos dos professores do sexo feminino. Considere:|
+|1.|desconto para homens, 10%, e, para mulheres, 5%;|
+|2.|as informações terminarão quando for lido o código = 99999.|
 |Q21R: |Faça um programa que receba vários números, calcule e mostre:
-■■ a soma dos números digitados;
-■■ a quantidade de números digitados;
-■■ a média dos números digitados;
-■■ o maior número digitado;
-■■ o menor número digitado;
-■■ a média dos números pares;
-■■ a porcentagem dos números ímpares entre todos os números digitados.
-Finalize a entrada de dados com a digitação do número 30.000.|
-|Q22R: |Uma empresa decidiu fazer um levantamento em relação aos candidatos que se apresentarem para
-preenchimento de vagas em seu quadro de funcionários. Supondo que você seja o programador dessa
-empresa, faça um programa que leia, para cada candidato, a idade, o sexo (M ou F) e a experiência no serviço (S ou N). Para encerrar a entrada de dados, digite zero para a idade.
+|1.| a soma dos números digitados;|
+|2.| a quantidade de números digitados;|
+|3.| a média dos números digitados;|
+|4.| o maior número digitado;|
+|5.| o menor número digitado;|
+|6.| a média dos números pares;|
+|7.| a porcentagem dos números ímpares entre todos os números digitados.|
+|F.|Finalize a entrada de dados com a digitação do número 30.000.|
+|Q22R: |Uma empresa decidiu fazer um levantamento em relação aos candidatos que se apresentarem para preenchimento de vagas em seu quadro de funcionários. Supondo que você seja o programador dessa empresa, faça um programa que leia, para cada candidato, a idade, o sexo (M ou F) e a experiência no serviço (S ou N). Para encerrar a entrada de dados, digite zero para a idade.
 O programa também deve calcular e mostrar:
-■■ o número de candidatos do sexo feminino;
-■■ o número de candidatos do sexo masculino;
-■■ a idade média dos homens que já têm experiência no serviço;
-■■ a porcentagem dos homens com mais de 45 anos entre o total dos homens;
-■■ o número de mulheres com idade inferior a 21 anos e com experiência no serviço;
-■■ a menor idade entre as mulheres que já têm experiência no serviço.|
+|1.| o número de candidatos do sexo feminino;|
+|2.| o número de candidatos do sexo masculino;|
+|3.| a idade média dos homens que já têm experiência no serviço;|
+|4.| a porcentagem dos homens com mais de 45 anos entre o total dos homens;|
+|5.| o número de mulheres com idade inferior a 21 anos e com experiência no serviço;|
+|6.| a menor idade entre as mulheres que já têm experiência no serviço.|
 |Q23R: |Faça um programa que receba o valor do salário mínimo, uma lista contendo a quantidade de quilowatts gasta por consumidor e o tipo de consumidor (1 — residencial; 2 — comercial; ou 3 — industrial) e que calcule e mostre:
 ■■ o valor de cada quilowatt, sabendo que o quilowatt custa um oitavo do salário mínimo;
 ■■ o valor a ser pago por consumidor (conta final mais acréscimo). O acréscimo encontra-se na tabela a seguir:|
@@ -222,6 +226,7 @@ O valor do imposto, usando a tabela a seguir.|
 | Maior que R$ 100,00| 10%                                           |
 |O valor do transporte usando a tabela a seguir.|
 | Carga Perigosa | País de Origem | Valor do Transporte |
+|----------------|----------------|---------------------|
 | S              | 1              | R$ 50,00            |
 | S              | 2              | R$ 21,00            |
 | S              | 3              | R$ 24,00            |
