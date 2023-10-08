@@ -1,3 +1,4 @@
+# Capítulo 7
 | Questão | Enunciado |
 | ------- | --------- |
 |  02     | Faça um programa que preencha uma matriz 10 × 3 com as notas de dez alunos em três provas. O programa deverá mostrar um relatório com o número dos alunos (número da linha) e a prova em que cada aluno obteve menor nota. Ao final do relatório, deverá mostrar quantos alunos tiveram menor nota em cada uma das provas: na prova 1, na prova 2 e na prova 3. |
