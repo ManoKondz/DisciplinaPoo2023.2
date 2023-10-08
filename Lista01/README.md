@@ -8,8 +8,8 @@ Neste diretório, você encontrará um conjunto de atividades para praticar suas
 
 ### Questões Resolvidas
 
-Este diretório contém 25 questões resolvidas, cada uma organizada em pacotes Java dentro da pasta `Questões Resolvidas`. Abaixo estão exemplos das questões resolvidas:
+Este diretório contém 25 questões resolvidas, cada uma organizada em pacotes Java dentro da pasta `Questões Resolvidas`. 
 
 ### Questões Propostas
 
-Além das questões resolvidas, temos 10 questões propostas para você praticar suas habilidades. Essas questões estão localizadas na pasta `Questões Propostas`:
+Além das questões resolvidas, temos 10 questões propostas para você praticar suas habilidades. Essas questões estão localizadas na pasta `Questões Propostas`
